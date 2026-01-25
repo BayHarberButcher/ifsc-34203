@@ -1,6 +1,6 @@
 * {
 	margin: 0px;
-	padding: 0px;
+	padding: 0px; /*does nothing*/
 }
 body {
 	text-align: center;
@@ -21,10 +21,11 @@ body {
 	border: 1px solid #CCC;
 }
 #header {
-}
-#header h1 a {
 	background-image: url(assessment-4.webp);
 	height: 140px;
+}
+#header h1 a {
+	
 }
 #nav {
 	background-color: #000;
