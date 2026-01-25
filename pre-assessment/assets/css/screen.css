@@ -8,7 +8,7 @@ body {
 	background-color: #171717;
 	font-size: 16px;
 	line-height: 1.5em;
-	background-image: url(bg-tile.png);
+	background-image: url(../image/bg-tile.jpg);
 	background-repeat: repeat-x;
 }
 #container {
@@ -21,11 +21,21 @@ body {
 	border: 1px solid #CCC;
 }
 #header {
-	background-image: url(assessment-4.webp);
+	background-image: url(../image/assessment-4.webp);
 	height: 140px;
 }
+#header h1 {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 #header h1 a {
-	
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 #nav {
 	background-color: #000;
@@ -64,6 +74,41 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+.alert {
+	background-color: #b9b9b9;
+	border: 1px solid #8f98ac;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 20px;
+	color: #555;
+	margin-bottom: 8px;
+}
+h4 {
+	font-size: 18px;
+	color: #777;
+	margin-bottom: 5px;
+}
+dl {
+	margin-bottom: 15px;
+}
+dt {
+	font-weight: bold;
+	color: #333;
+}
+dd {
+	margin-left: 20px;
+	color: #555;
+}
+.favorite:hover {
+	background-color: #ff0000;
+}
 #footer {
 	background-color: #000;
 	color: #FFF;
@@ -74,4 +119,8 @@ body {
 	line-height: 25px;
 	margin-right: 20px;
 	margin-left: 20px;
+}
+#footer h6 a {
+	color: #FFF;
+	text-decoration: none;
 }
